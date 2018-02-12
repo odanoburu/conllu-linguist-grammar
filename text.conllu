@@ -1,0 +1,12 @@
+{  "scopeName": "text.conllu",
+   "fileTypes": [".conllu", ".conll"],
+   "foldingStartMarker": "^# .+$",
+   "foldingStopMarker": "^ *$",
+   "patterns": [{"name": "comment.line.number-sign.conllu",
+                 "match": "^# .+$"},
+                {"name": "entity.name.section.id.conllu",
+                 "match": "^[^\t]+"},
+                {"name": "entity.name.section.form.conllu",
+                 "match": "^[^\t]+\t([^\t]+)"}
+               ]
+}
